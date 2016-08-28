@@ -19,7 +19,7 @@ class AbiturlistSpider(CrawlSpider):
 
     rules = (
         #Rule(SgmlLinkExtractor(allow=('spec_id=', 'spec_title=')), follow=True),
-        Rule(LinkExtractor(allow=('spec_id=')), callback='parse_item'),
+        Rule(LinkExtractor(allow=('spec_id=04.03.01')), callback='parse_item'),
     )
 
     def parse_item(self, response):
