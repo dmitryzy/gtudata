@@ -6,6 +6,8 @@ scrapy
 
 email: dmitry-zy@yandex.ru
 
+Подробнее здесь: https://habrahabr.ru/post/308660/ 
+
 Требует установки python 2, scrapy, sqlalchemy, sqlite3
 
 Руководство по установке scrapy:
