@@ -2,6 +2,10 @@
 scrapy 
 Проект сбора данных с сайта при помощи фреймворка scrapy
 
+Автор: Цымай Дмитрий
+
+email: dmitry-zy@yandex.ru
+
 Требует установки python 2, scrapy, sqlalchemy, sqlite3
 
 Руководство по установке scrapy:
@@ -18,3 +22,5 @@ http://www.sqlalchemy.org/download.html
         scrapy crawl speclist
         scrapy crawl abiturlist
 Результат будет записан в базу данных sqlite: data_scraped
+
+
